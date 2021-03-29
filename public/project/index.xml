@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Derek Held</title>
+    <link>https://derekheld.com/project/</link>
+    <description>Recent content in Projects on Derek Held</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Derek Held</copyright>
+    <lastBuildDate>Sun, 30 Jul 2017 17:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://derekheld.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Urban Wildlife Alliance</title>
+      <link>https://derekheld.com/project/urban-wildlife/</link>
+      <pubDate>Sun, 30 Jul 2017 17:00:00 +0000</pubDate>
+      
+      <guid>https://derekheld.com/project/urban-wildlife/</guid>
+      <description>This project involved configuring a webserver and a publishing platform to be used for a graduate school project.
+Technologies used:
+ Debian Google Firebase Google Domains Hugo Bash scripting Let&amp;rsquo;s Encrypt Nginx Rsync  Urban Wildlife Alliance website
+I was requested to help assemble a website that could be used to publish posts about urban wildlife and our coexistence with it. It needed to be easily securable and also provide an easy method for publishing.</description>
+    </item>
+    
+  </channel>
+</rss>

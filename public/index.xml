@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Derek Held on Derek Held</title>
+    <link>https://derekheld.com/</link>
+    <description>Recent content in Derek Held on Derek Held</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Derek Held</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Urban Wildlife Alliance</title>
+      <link>https://derekheld.com/project/urban-wildlife/</link>
+      <pubDate>Sun, 30 Jul 2017 17:00:00 +0000</pubDate>
+      
+      <guid>https://derekheld.com/project/urban-wildlife/</guid>
+      <description>&lt;p&gt;This project involved configuring a webserver and a publishing platform to be used for a graduate school project.&lt;/p&gt;
+
+&lt;p&gt;Technologies used:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Debian&lt;/li&gt;
+&lt;li&gt;Google Firebase&lt;/li&gt;
+&lt;li&gt;Google Domains&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;Bash scripting&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s Encrypt&lt;/li&gt;
+&lt;li&gt;Nginx&lt;/li&gt;
+&lt;li&gt;Rsync&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://urbanwildlifealliance.org&#34; target=&#34;_blank&#34;&gt;Urban Wildlife Alliance website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I was requested to help assemble a website that could be used to publish posts about urban wildlife and our coexistence with it. It needed to be easily securable and also provide an easy method for publishing. I selected Hugo as the platform for publishing as securing a static website is much easier than securing a dynamic website. I also chose Nginx for it&amp;rsquo;s out of the box speed and low resource usage which is helpful for the small webserver it sits on. You never know if a post might go viral!&lt;/p&gt;
+
+&lt;p&gt;I also needed to make sure it was going to be easy to publish. The structure of Hugo is quick to learn but there is a learning curve with Markdown. I automated website updating by writing a Bash script that runs as a cron task to check for the presence of certain files. These files are used to issue a command to the script to perform a task such as update the website or generate a test copy of the website. This made it easy for the website owner to update the website as they only had to create an empty file in their SFTP client instead of learning how to publish the website themselves.&lt;/p&gt;
+
+&lt;p&gt;Just because the website was low key didn&amp;rsquo;t mean that I took a low key approach. I wanted something that fit what the customer wanted as well as something I could learn from. I decided to leverage Google&amp;rsquo;s Firebase and domain services, and in general staying entirely within the Google ecosystem for anything needed. The working copy of the site is stored on a Debian server and then either uploaded to Firebase with Google&amp;rsquo;s CLI tool or Rsync&amp;rsquo;d to a web server for testing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
