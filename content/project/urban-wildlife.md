@@ -1,10 +1,6 @@
 +++
-date = "2017-07-30T17:00:00"
-draft = false
 tags = []
 title = "Urban Wildlife Alliance"
-math = false
-image_preview = "uwa.jpg"
 summary = "A webserver and website building project involving a static site generator and scripting"
 +++
 
